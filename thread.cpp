@@ -9,6 +9,6 @@ void print()
 int main()
 {
 	std::thread t(print);
-	t.join(); //wait tille the thread finish its task
+	t.join(); //wait till the thread finish its task
 	return 0;
 }
